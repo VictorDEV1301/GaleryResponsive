@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100%;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    border: 4px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 300px;
+    max-height: 25%;
+    width: 100%;
+
+}
+
+.content-one-content-one{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    min-width: 300px;
+    min-height: 300px;
+    flex: 2;
+    border: 4px solid #ccc;
+  
+}
+
+.content-one-content-two{
+    min-height: 300px;
+    min-width: 300PX;
+    flex: 3;
+    background-image: url(./../Imagens/imagem-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #ccc;
+}
+
+.content-one-content-three{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 300px;
+    max-width: 450px;
+    flex: 1;
+}
+
+.content-one-content-three-one{
+    border: 4px solid #ccc;
+    min-width: 300px;
+    min-height: 150px;
+    background-image: url(./../Imagens/imagem-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content-one-content-three-two{
+    border: 4px solid #ccc;
+    min-width: 300px;
+    min-height: 150px;
+    background-image: url(./../Imagens/imagem-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content-atwo{
+    min-width: 300px;
+    min-height: 300px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-atwo-img{
+    background-position: center;
+    background-size: cover;
+    min-height: 150px;
+    min-width: 150px;
+    border: 4px solid #ccc;
+}
+
+.content-btwo{
+    flex: 1;
+    min-width: 300px;
+    min-height: 300px;
+    background-image: url(./../Imagens/imagem-8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content-three-img{
+    flex: 1;
+    min-width: 300px;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #ccc;
+}
